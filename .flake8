@@ -1,0 +1,9 @@
+[flake8]
+ignore = E501, W504
+exclude =
+    .git,
+    __pycache__,
+    .venv-framulent,
+    .mypy_cache,
+    .pytest_cache,
+    .mypy_stubs
